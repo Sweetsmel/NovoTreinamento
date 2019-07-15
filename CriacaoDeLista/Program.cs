@@ -22,11 +22,23 @@ namespace CriacaoDeLista
                                                                                  //DateTime é um tipo do .net c# que disponibiliza funções relacionadas a datas e horas, ou seja: se precisar trabalhar com estas informações é possivel usar este cara.
             }
                                                                                  //laço de repetição que usamos para varrer nossa lista de maneira mais simples
-            foreach (var item in lista)                                          //"var item" indica uma unidade da nossa lista "in lista"
+            foreach (var item in lista)                                          //"var item" indica uma unidade da nossa lista "in lista". Trasnforma o "item" na "lista" chamada
                                                                                  //indica a lista que desejamos varrer
-                Console.WriteLine(item);                                         //aqui apresentamos essa informação na tela.
+                Console.WriteLine(item);                                         //aqui apresentamos essa informação na tela. A informação "item" que é a "lista"
 
             Console.ReadKey();
+
+            for (int i = 0; i < lista.Length; i++)
+            {
+                lista[i] = string.Empty;                                        //aqui limpamos o nosso valor dentro da coleção
+
+                                                                                //laço de repetição que usamos para varrer nossa lista de maneira mais simples
+                foreach (var item in lista)                                     //"var item" indica uma unidade da nossa lista "in lista"
+                                                                                //indica a lista que desejamos varrer
+                    Console.WriteLine(item);                                    //aqui apresentamos esta informação na tela
+
+                Console.ReadKey();
+            }
         }
     }
 }
