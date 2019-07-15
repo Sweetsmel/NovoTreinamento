@@ -37,7 +37,7 @@ namespace CriacaoDeLista
                                                                                 //indica a lista que desejamos varrer
                     Console.WriteLine(item);                                    //aqui apresentamos esta informação na tela
 
-                Console.ReadKey(); //
+                Console.ReadKey(); 
             }
         }
     }
