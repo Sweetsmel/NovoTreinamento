@@ -43,14 +43,7 @@ namespace InsertAndRemoveInList
                 escolhaInicial = ApresentaMenuInicial();
             }
         }
-        public static void MostrarInicio()
-        {
-            Console.WriteLine("-----------------------------------------------------------");
-            Console.WriteLine("        BEM VINDO AO SISTEMA DE REGISTRO DE LIVROS!");
-            Console.WriteLine("-----------------------------------------------------------");
-            Console.WriteLine("             Desenvolvido pela indústria S.A");
-            Console.WriteLine("-----------------------------------------------------------");
-        }
+
         /// <summary>
         /// Apresenta as informações do menu inicial.
         /// </summary>
